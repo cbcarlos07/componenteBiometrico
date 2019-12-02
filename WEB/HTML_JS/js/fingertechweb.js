@@ -77,12 +77,16 @@ const salvarDigital = digital => {
 }
 
 function identify() {
+	 /*###################################################################
+	 #                                                                   #
+	 #                                                                   #
+	 #       API que traz as digitais, pode ser em Nodejs, PHP, Srping   #
+	 #                                                                   #
+	 #                                                                   #
+	 #####################################################################
+	*/
 	const api = 'http://localhost:3200/api/biometrico'	
-	
-	//console.log('parametro', b64)
 	$.get( api, (dados, status) =>{
-		//console.log('data', data)
-		//const b64 = btoa( JSON.stringify( dados ) )
 		const b64 = JSON.stringify( dados ) 
 		$.ajax({
 			url: `http://localhost:9000/api/public/v1/captura/Identify`,
