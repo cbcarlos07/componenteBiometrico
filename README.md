@@ -73,9 +73,7 @@ Funciona assim:
 
         O valor do índice retornado no objeto é a posição do item encontrado no array.
 
-        Ex: Caso o indice encontrado no exemplo é:
-
-        De acordo com o item 1, o valor do índice 2 do array será
+        De acordo com o item 1, o valor de índice 2 do array será
 
 
             `{
@@ -87,6 +85,9 @@ Funciona assim:
                 nome: "Ciclano de Tal"
                 setor: Recursos Humanos"
             }`
+
+        Ex: Caso o indice encontrado no exemplo é:
+
 
         Ou seja:
 
