@@ -65,11 +65,11 @@ Funciona assim:
 
   6. Se encontrar retorna o índice do vetor onde está localizada a pessoa em um objeto 
 
-        {status: true, msg: 'Digital encontrada', indice: "+idxEncontrou+"}
+        `{status: true, msg: 'Digital encontrada', indice: "+idxEncontrou+"}`
 
         Ex.:
 
-        {status: true, msg: 'Digital encontrada', indice: 2}
+        `{status: true, msg: 'Digital encontrada', indice: 2}`
 
         O valor do índice retornado no objeto é a posição do item encontrado no array.
 
