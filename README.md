@@ -53,7 +53,7 @@ Funciona assim:
   2. Convertemos essas digitais em que estão em array em string
     
         
-        const digitais = JSON.stringify( digitaisEmArray )
+        `const digitais = JSON.stringify( digitaisEmArray )`
 
   3. Enviamos os dados da api para o leitor biométrico
 
@@ -75,18 +75,18 @@ Funciona assim:
 
         Ex: Caso o indice encontrado no exemplo é:
 
-        De acordo com o item 1, o valor do item 2 do array será
+        De acordo com o item 1, o valor do índice 2 do array será
 
 
-        {
-            codfun: 3
-            digital: "AQAAABQAA...."
-            drt: 039293i3i
-            empresa: "Nome da empresa"
-            foto: 3
-            nome: "Ciclano de Tal"
-            setor: Recursos Humanos"
-        }
+            `{
+                codfun: 3
+                digital: "AQAAABQAA...."
+                drt: 039293i3i
+                empresa: "Nome da empresa"
+                foto: 3
+                nome: "Ciclano de Tal"
+                setor: Recursos Humanos"
+            }`
 
         Ou seja:
 
@@ -95,13 +95,13 @@ Funciona assim:
 
      Se não encontrou retorna o índice com outra mensagem
 
-        {status: true, msg: 'Digital não encontrada'}
+        `{status: true, msg: 'Digital não encontrada'}`
 
   7. No javascript pode ser tratado esse retorno
     
         O índice retornado é o que veio da api do leitor biométrico
 
-        console.log( valoresArray[ indice ]  )     
+        `console.log( valoresArray[ indice ]  )`     
 
 
 
