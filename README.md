@@ -12,7 +12,7 @@ Foi acrescentada a função identify
 
 Que é a função que compara muitas digitais com a digital que está sendo lida no momento
 
-O executável compilado com a nova alteração está no localizado na pasta Desktop/Leitor
+O executável compilado com a nova alteração está no localizado na pasta [Desktop/Leitor](https://github.com/cbcarlos07/componenteBiometrico/tree/master/Desktop/Leitor/Release)
 
 Funciona assim:
 
