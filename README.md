@@ -75,6 +75,7 @@ Funciona assim:
 
         De acordo com o item 1, o valor de índice 2 do array será
 
+        Ex: Caso o indice encontrado no exemplo é:
 
             `{
                 codfun: 3
@@ -86,12 +87,6 @@ Funciona assim:
                 setor: Recursos Humanos"
             }`
 
-        Ex: Caso o indice encontrado no exemplo é:
-
-
-        Ou seja:
-
-            
 
 
      Se não encontrou retorna o índice com outra mensagem
@@ -102,7 +97,7 @@ Funciona assim:
     
         O índice retornado é o que veio da api do leitor biométrico
 
-        `console.log( valoresArray[ indice ]  )`     
+        `console.log( valoresArray[ objRetornado.indice ]  )`     
 
 
 
